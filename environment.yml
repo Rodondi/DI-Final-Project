@@ -1,0 +1,21 @@
+name: airquality
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
+  - statsmodels
+  - scikit-learn
+  - jupyter
+  - jupyterlab
+  - geopandas
+  - sqlalchemy
+  - psycopg2
+  - pip
+  - pip:
+      - openpyxl

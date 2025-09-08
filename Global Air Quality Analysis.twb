@@ -1,0 +1,1153 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='who_aq_2024_long_clean' inline='true' name='federated.0ayf5mu1puhbi3118yy6c1csczo8' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='who_aq_2024_long_clean' name='textscan.0tw5b5h1k983ew1aj1ovd15zmpfz'>
+            <connection class='textscan' directory='C:/Users/Mollean/Desktop/Global Air Quality Analysis/who_aq_clean' filename='who_aq_2024_long_clean.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0tw5b5h1k983ew1aj1ovd15zmpfz' name='who_aq_2024_long_clean.csv' table='[who_aq_2024_long_clean#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='who_region' ordinal='0' />
+            <column datatype='string' name='iso3' ordinal='1' />
+            <column datatype='string' name='country_name' ordinal='2' />
+            <column datatype='string' name='city' ordinal='3' />
+            <column datatype='real' name='year' ordinal='4' />
+            <column datatype='string' name='version' ordinal='5' />
+            <column datatype='string' name='type_of_stations' ordinal='6' />
+            <column datatype='string' name='reference' ordinal='7' />
+            <column datatype='string' name='web_link' ordinal='8' />
+            <column datatype='real' name='population' ordinal='9' />
+            <column datatype='string' name='population_source' ordinal='10' />
+            <column datatype='real' name='latitude' ordinal='11' />
+            <column datatype='real' name='longitude' ordinal='12' />
+            <column datatype='integer' name='who_ms' ordinal='13' />
+            <column datatype='string' name='unit' ordinal='14' />
+            <column datatype='string' name='source' ordinal='15' />
+            <column datatype='string' name='dataset_version' ordinal='16' />
+            <column datatype='string' name='pollutant' ordinal='17' />
+            <column datatype='real' name='concentration' ordinal='18' />
+            <column datatype='real' name='temporal_coverage_pct' ordinal='19' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>who_region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[who_region]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>who_region</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iso3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[iso3]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>iso3</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country_name]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>country_name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>version</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[version]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>version</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type_of_stations</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[type_of_stations]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>type_of_stations</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reference</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[reference]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>reference</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>web_link</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[web_link]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>web_link</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[population]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>population</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population_source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[population_source]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>population_source</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>who_ms</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[who_ms]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>who_ms</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>unit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[unit]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>unit</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[source]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>source</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dataset_version</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[dataset_version]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>dataset_version</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pollutant</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pollutant]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>pollutant</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>concentration</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[concentration]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>concentration</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>temporal_coverage_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[temporal_coverage_pct]</local-name>
+            <parent-name>[who_aq_2024_long_clean.csv]</parent-name>
+            <remote-alias>temporal_coverage_pct</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='who_aq_2024_long_clean.csv' datatype='table' name='[__tableau_internal_object_id__].[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]' role='measure' type='quantitative' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Concentration' datatype='real' name='[concentration]' role='measure' type='quantitative' />
+      <column caption='Country Name' datatype='string' name='[country_name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Dataset Version' datatype='string' name='[dataset_version]' role='dimension' type='nominal' />
+      <column caption='Iso3' datatype='string' name='[iso3]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Pollutant' datatype='string' name='[pollutant]' role='dimension' type='nominal' />
+      <column caption='Population' datatype='real' name='[population]' role='measure' type='quantitative' />
+      <column caption='Population Source' datatype='string' name='[population_source]' role='dimension' type='nominal' />
+      <column caption='Reference' datatype='string' name='[reference]' role='dimension' type='nominal' />
+      <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+      <column caption='Temporal Coverage Pct' datatype='real' name='[temporal_coverage_pct]' role='measure' type='quantitative' />
+      <column caption='Type Of Stations' datatype='string' name='[type_of_stations]' role='dimension' type='nominal' />
+      <column caption='Unit' datatype='string' name='[unit]' role='dimension' type='nominal' />
+      <column caption='Version' datatype='string' name='[version]' role='dimension' type='nominal' />
+      <column caption='Web Link' datatype='string' name='[web_link]' role='dimension' type='nominal' />
+      <column caption='Who Ms' datatype='integer' name='[who_ms]' role='measure' type='quantitative' />
+      <column caption='Who Region' datatype='string' name='[who_region]' role='dimension' type='nominal' />
+      <column caption='Year' datatype='real' name='[year]' role='dimension' type='quantitative' />
+      <drill-paths>
+        <drill-path name='country_name, city'>
+          <field>[country_name]</field>
+          <field>[city]</field>
+        </drill-path>
+      </drill-paths>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Mollean/AppData/Local/Temp/TableauTemp/#TableauTemp_0bw37ks1njq1dq1840q9h0wjal4p.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/07/2025 10:10:09 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>who_region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[who_region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>who_region</remote-alias>
+              <ordinal>0</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>iso3</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[iso3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>iso3</remote-alias>
+              <ordinal>1</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>145</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>country_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[country_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>country_name</remote-alias>
+              <ordinal>2</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>145</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>city</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[city]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>city</remote-alias>
+              <ordinal>3</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>13679</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>year</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>year</remote-alias>
+              <ordinal>4</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>version</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[version]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>version</remote-alias>
+              <ordinal>5</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>277</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>type_of_stations</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[type_of_stations]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>type_of_stations</remote-alias>
+              <ordinal>6</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>390</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>reference</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[reference]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>reference</remote-alias>
+              <ordinal>7</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>198</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>web_link</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[web_link]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>web_link</remote-alias>
+              <ordinal>8</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>413</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>population</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[population]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>population</remote-alias>
+              <ordinal>9</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10225</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>population_source</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[population_source]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>population_source</remote-alias>
+              <ordinal>10</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>370</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>latitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[latitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>latitude</remote-alias>
+              <ordinal>11</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16437</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>longitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[longitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>longitude</remote-alias>
+              <ordinal>12</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16437</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>who_ms</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[who_ms]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>who_ms</remote-alias>
+              <ordinal>13</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>unit</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[unit]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>unit</remote-alias>
+              <ordinal>14</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>source</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[source]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>source</remote-alias>
+              <ordinal>15</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dataset_version</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[dataset_version]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dataset_version</remote-alias>
+              <ordinal>16</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pollutant</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[pollutant]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pollutant</remote-alias>
+              <ordinal>17</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>concentration</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[concentration]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>concentration</remote-alias>
+              <ordinal>18</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18167</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>temporal_coverage_pct</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[temporal_coverage_pct]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>temporal_coverage_pct</remote-alias>
+              <ordinal>19</ordinal>
+              <family>who_aq_2024_long_clean.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>264</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='who_aq_2024_long_clean.csv' id='who_aq_2024_long_clean.csv_66318B1F2FD145ECBE1400F0B5696583'>
+            <properties context=''>
+              <relation connection='textscan.0tw5b5h1k983ew1aj1ovd15zmpfz' name='who_aq_2024_long_clean.csv' table='[who_aq_2024_long_clean#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='who_region' ordinal='0' />
+                  <column datatype='string' name='iso3' ordinal='1' />
+                  <column datatype='string' name='country_name' ordinal='2' />
+                  <column datatype='string' name='city' ordinal='3' />
+                  <column datatype='real' name='year' ordinal='4' />
+                  <column datatype='string' name='version' ordinal='5' />
+                  <column datatype='string' name='type_of_stations' ordinal='6' />
+                  <column datatype='string' name='reference' ordinal='7' />
+                  <column datatype='string' name='web_link' ordinal='8' />
+                  <column datatype='real' name='population' ordinal='9' />
+                  <column datatype='string' name='population_source' ordinal='10' />
+                  <column datatype='real' name='latitude' ordinal='11' />
+                  <column datatype='real' name='longitude' ordinal='12' />
+                  <column datatype='integer' name='who_ms' ordinal='13' />
+                  <column datatype='string' name='unit' ordinal='14' />
+                  <column datatype='string' name='source' ordinal='15' />
+                  <column datatype='string' name='dataset_version' ordinal='16' />
+                  <column datatype='string' name='pollutant' ordinal='17' />
+                  <column datatype='real' name='concentration' ordinal='18' />
+                  <column datatype='real' name='temporal_coverage_pct' ordinal='19' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='KPI_NO2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='who_aq_2024_long_clean' name='federated.0ayf5mu1puhbi3118yy6c1csczo8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ayf5mu1puhbi3118yy6c1csczo8'>
+            <column-instance column='[concentration]' derivation='Avg' name='[avg:concentration:qk]' pivot='key' type='quantitative' />
+            <column caption='Concentration' datatype='real' name='[concentration]' role='measure' type='quantitative' />
+            <column-instance column='[pollutant]' derivation='None' name='[none:pollutant:nk]' pivot='key' type='nominal' />
+            <column-instance column='[year]' derivation='None' name='[none:year:qk]' pivot='key' type='quantitative' />
+            <column caption='Pollutant' datatype='string' name='[pollutant]' role='dimension' type='nominal' />
+            <column caption='Year' datatype='real' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ayf5mu1puhbi3118yy6c1csczo8].[none:pollutant:nk]'>
+            <groupfilter function='member' level='[none:pollutant:nk]' member='&quot;no2&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.0ayf5mu1puhbi3118yy6c1csczo8].[none:year:qk]' included-values='in-range'>
+            <min>2010.0</min>
+            <max>2022.0</max>
+          </filter>
+          <slices>
+            <column>[federated.0ayf5mu1puhbi3118yy6c1csczo8].[none:pollutant:nk]</column>
+            <column>[federated.0ayf5mu1puhbi3118yy6c1csczo8].[none:year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='19' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0ayf5mu1puhbi3118yy6c1csczo8].[avg:concentration:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>Avg PM2.5: &lt;</run>
+                <run>[federated.0ayf5mu1puhbi3118yy6c1csczo8].[avg:concentration:qk]</run>
+                <run>&gt; µg/m³&#10;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C1258678-7A19-4747-9E2C-273CC27278A3}' />
+    </worksheet>
+    <worksheet name='KPI_PM10'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='who_aq_2024_long_clean' name='federated.0ayf5mu1puhbi3118yy6c1csczo8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ayf5mu1puhbi3118yy6c1csczo8'>
+            <column-instance column='[concentration]' derivation='Avg' name='[avg:concentration:qk]' pivot='key' type='quantitative' />
+            <column caption='Concentration' datatype='real' name='[concentration]' role='measure' type='quantitative' />
+            <column-instance column='[pollutant]' derivation='None' name='[none:pollutant:nk]' pivot='key' type='nominal' />
+            <column-instance column='[year]' derivation='None' name='[none:year:qk]' pivot='key' type='quantitative' />
+            <column caption='Pollutant' datatype='string' name='[pollutant]' role='dimension' type='nominal' />
+            <column caption='Year' datatype='real' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ayf5mu1puhbi3118yy6c1csczo8].[none:pollutant:nk]'>
+            <groupfilter function='member' level='[none:pollutant:nk]' member='&quot;pm10&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.0ayf5mu1puhbi3118yy6c1csczo8].[none:year:qk]' included-values='in-range'>
+            <min>2010.0</min>
+            <max>2022.0</max>
+          </filter>
+          <slices>
+            <column>[federated.0ayf5mu1puhbi3118yy6c1csczo8].[none:pollutant:nk]</column>
+            <column>[federated.0ayf5mu1puhbi3118yy6c1csczo8].[none:year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='19' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0ayf5mu1puhbi3118yy6c1csczo8].[avg:concentration:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>Avg PM2.5: &lt;</run>
+                <run>[federated.0ayf5mu1puhbi3118yy6c1csczo8].[avg:concentration:qk]</run>
+                <run>&gt; µg/m³&#10;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{652AB928-F7C2-4F4B-B8FC-BE40B3C1EEC4}' />
+    </worksheet>
+    <worksheet name='KPI_PM25'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='who_aq_2024_long_clean' name='federated.0ayf5mu1puhbi3118yy6c1csczo8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ayf5mu1puhbi3118yy6c1csczo8'>
+            <column-instance column='[concentration]' derivation='Avg' name='[avg:concentration:qk]' pivot='key' type='quantitative' />
+            <column caption='Concentration' datatype='real' name='[concentration]' role='measure' type='quantitative' />
+            <column-instance column='[pollutant]' derivation='None' name='[none:pollutant:nk]' pivot='key' type='nominal' />
+            <column-instance column='[year]' derivation='None' name='[none:year:qk]' pivot='key' type='quantitative' />
+            <column caption='Pollutant' datatype='string' name='[pollutant]' role='dimension' type='nominal' />
+            <column caption='Year' datatype='real' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ayf5mu1puhbi3118yy6c1csczo8].[none:pollutant:nk]'>
+            <groupfilter function='member' level='[none:pollutant:nk]' member='&quot;pm25&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.0ayf5mu1puhbi3118yy6c1csczo8].[none:year:qk]' included-values='in-range'>
+            <min>2010.0</min>
+            <max>2022.0</max>
+          </filter>
+          <slices>
+            <column>[federated.0ayf5mu1puhbi3118yy6c1csczo8].[none:pollutant:nk]</column>
+            <column>[federated.0ayf5mu1puhbi3118yy6c1csczo8].[none:year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='19' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0ayf5mu1puhbi3118yy6c1csczo8].[avg:concentration:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>Avg PM2.5: &lt;</run>
+                <run>[federated.0ayf5mu1puhbi3118yy6c1csczo8].[avg:concentration:qk]</run>
+                <run>&gt; µg/m³&#10;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{930E71A0-BA6A-479A-BAEA-7FABBD9FDDCD}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='KPI_PM25'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0ayf5mu1puhbi3118yy6c1csczo8].[none:year:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ayf5mu1puhbi3118yy6c1csczo8].[none:pollutant:nk]</field>
+            <field>[federated.0ayf5mu1puhbi3118yy6c1csczo8].[none:year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7DCA5039-984F-4731-B977-4E4FBA1FD1F0}' />
+    </window>
+    <window class='worksheet' name='KPI_PM10'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ayf5mu1puhbi3118yy6c1csczo8].[none:pollutant:nk]</field>
+            <field>[federated.0ayf5mu1puhbi3118yy6c1csczo8].[none:year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{ACA327D8-B4C5-475F-AB26-356F6A2E965A}' />
+    </window>
+    <window class='worksheet' maximized='true' name='KPI_NO2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ayf5mu1puhbi3118yy6c1csczo8].[none:pollutant:nk]</field>
+            <field>[federated.0ayf5mu1puhbi3118yy6c1csczo8].[none:year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2667730D-61D0-4D90-997C-90579D581BF8}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='23' name='KPI_NO2' width='164'>
+      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
+      TkSuQmCC
+    </thumbnail>
+    <thumbnail height='23' name='KPI_PM10' width='164'>
+      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
+    </thumbnail>
+    <thumbnail height='23' name='KPI_PM25' width='164'>
+      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
+      rkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>

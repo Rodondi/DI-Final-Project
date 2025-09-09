@@ -87,7 +87,6 @@ The project combines **Python data science workflows**, **PostgreSQL**, and **in
 
 ---
 
-## 👤 Author  
-**Your Name**  
-📌 Data Analytics Bootcamp Graduate  
-🔗 [Portfolio](#) | [GitHub](#) | [LinkedIn](#)  
+## 👤 Author
+**Rodgers Odondi**  
+🔗 [Portfolio](https://www.datascienceportfol.io/odondirodgers) | [GitHub](https://github.com/Rodondi) | [LinkedIn](https://www.linkedin.com/in/rodgers-odondi-912351267/)

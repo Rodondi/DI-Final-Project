@@ -5,7 +5,7 @@
 ## 📌 Project Overview  
 Air pollution is one of the **largest global health risks**, linked to respiratory and cardiovascular diseases. This project analyzes the **WHO Ambient Air Quality Database (2024 update)** to uncover trends in pollutants (PM2.5, PM10, NO₂), regional disparities, and potential impacts.  
 
-The project combines **Python data science workflows**, **PostgreSQL**, and **interactive dashboards** (Tableau/Power BI) to deliver insights and an accessible visualization platform.  
+The project combines **Python data science workflows**, **PostgreSQL**, and **interactive dashboards** (Tableau) to deliver insights and an accessible visualization platform.  
 
 ---
 

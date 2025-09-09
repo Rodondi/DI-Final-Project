@@ -13,7 +13,7 @@ The project combines **Python data science workflows**, **PostgreSQL**, and **in
 - Clean, validate, and structure WHO global air quality data.  
 - Perform **exploratory data analysis (EDA)** and **statistical testing**.  
 - Use **machine learning (clustering)** to group countries by air quality trajectory.  
-- Build an **interactive dashboard** (Tableau / Power BI) with KPIs, maps, and filters.  
+- Build an **interactive dashboard** (Tableau) with KPIs, maps, and filters.  
 - Provide a resource for policymakers, researchers, and the public.  
 
 ---

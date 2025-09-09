@@ -1,6 +1,6 @@
 # 🌍 Global Air Quality Analysis and Trend 
 
-![Air Quality Banner]([https://upload.wikimedia.org/wikipedia/commons/5/5e/Air_pollution_example.jpg](https://imgs.search.brave.com/D6ulRWIZCTaEmwbffCUdkTKV_42qAvNStZH3l1jkah8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy83/LzdiL0dsb2JhbF9h/aXJfcG9sbHV0aW9u/X21hcC5wbmc)
+<img width="2753" height="1400" alt="Global_air_pollution_map" src="https://github.com/user-attachments/assets/a8241191-2ea4-4cf4-8881-2a674f5a7584" />
 
 ## 📌 Project Overview  
 Air pollution is one of the **largest global health risks**, linked to respiratory and cardiovascular diseases. This project analyzes the **WHO Ambient Air Quality Database (2024 update)** to uncover trends in pollutants (PM2.5, PM10, NO₂), regional disparities, and potential impacts.  

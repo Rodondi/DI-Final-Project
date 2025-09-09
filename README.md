@@ -37,36 +37,6 @@ The project combines **Python data science workflows**, **PostgreSQL**, and **in
 
 ---
 
-## 📊 Project Structure  
-```
-📁 Global-Air-Quality-Analysis
-│── data/
-│   ├── raw/ (WHO source file)
-│   ├── processed/ (clean CSVs)
-│
-│── notebooks/
-│   ├── 01_eda_cleaning.ipynb
-│   ├── 02_statistical_analysis.ipynb
-│   ├── 03_machine_learning.ipynb
-│
-│── sql/
-│   ├── who_aq_postgres_schema.sql
-│
-│── dashboard/
-│   ├── tableau.pbix / tableau.twbx (interactive dashboards)
-│
-│── outputs/
-│   ├── region_year_summary.csv
-│   ├── country_year_summary.csv
-│   ├── city_latest.csv
-│   ├── data_dictionary.csv
-│
-│── README.md
-│── requirements.txt
-```
-
----
-
 ## 🔬 Analysis Highlights  
 - **EDA**: Missingness audit, duplicates, outlier detection, geospatial sanity checks.  
 - **Statistical Tests**:  

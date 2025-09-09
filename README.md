@@ -51,11 +51,7 @@ The project combines **Python data science workflows**, **PostgreSQL**, and **in
   - Trends over time by pollutant and region  
   - Regional comparison bar charts  
 
----
-
-## 📈 Dashboard Demo  
-👉 [View Tableau Dashboard](#) (add your link here)  
-👉 [View Power BI Dashboard](#) (add your link here)  
+--- 
 
 **Features:**  
 - Interactive filters (Year, Region, Pollutant)  
